@@ -1,0 +1,35 @@
+pageInfo:
+  title: "Holck-Schandorff"
+  description: "The dashboard"
+appConfig:
+  theme: "material-dark"
+  layout: "auto"
+  iconSize: "large"
+  statusCheck: false
+sections:
+  - name: "Smart Home"
+    icon: "fas fa-house-user"
+    displayData:
+      cols: 2
+    items:
+      - title: "Home Assistant"
+        icon: "fas fa-home"
+        url: "https://ha.holck-schandorff.family"
+      - title: "Weather"
+        icon: "fas fa-cloud-rain"
+        url: "https://weather.com"
+  - name: "Productivity Suite"
+    icon: "fas fa-tools"
+    displayData:
+      cols: 3
+    items:
+      - title: "Notion"
+        icon: "fab fa-notion"
+        url: "https://notion.so"
+      - title: "Slack"
+        icon: "fab fa-slack"
+        url: "https://slack.com"
+      - title: "Trello"
+        icon: "fab fa-trello"
+        url: "https://trello.com"
+footerText: "Curated by MasterST | Built with Dashy"
