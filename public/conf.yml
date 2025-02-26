@@ -1,66 +1,35 @@
-# General page info for a polished appearance
 pageInfo:
-  title: "My Elegant Dashboard"
-  description: "A curated hub for all my favorite tools and services."
-  navLinks:
-    - title: "GitHub"
-      path: "https://github.com/yourusername"
-    - title: "Contact"
-      path: "mailto:you@yourdomain.com"
-
-# App settings for aesthetics
+  title: "Holck-Schandorff"
+  description: "Welcome to the home dashboard"
 appConfig:
-  theme: "nord"  # A clean, modern theme (options: nord, dracula, material, etc.)
-  layout: "auto"  # Responsive grid layout
-  iconSize: "medium"  # Balanced icon size
-  statusCheck: false  # Disable if static (Cloudflare Pages limitation)
-
-# Sections for a beautiful, organized dashboard
+  theme: "material-dark"
+  layout: "auto"
+  iconSize: "large"
+  statusCheck: false
 sections:
-  - name: "Home Control"
-    icon: "fas fa-home"  # FontAwesome icon
+  - name: "Smart Home"
+    icon: "fas fa-house-user"
     displayData:
-      cols: 2  # Two-column layout for a tidy look
+      cols: 2
     items:
       - title: "Home Assistant"
-        description: "Smart home control"
-        icon: "fas fa-lightbulb"  # Sleek lightbulb icon
-        url: "https://ha.yourdomain.com"
-        target: "newtab"
+        icon: "fas fa-home"
+        url: "https://ha.holck-schandorff.family"
       - title: "Weather"
-        description: "Local forecast"
-        icon: "fas fa-cloud-sun"
+        icon: "fas fa-cloud-rain"
         url: "https://weather.com"
-
-  - name: "Productivity"
-    icon: "fas fa-briefcase"
+  - name: "Work Tools"
+    icon: "fas fa-tools"
     displayData:
-      cols: 3  # Three columns for variety
+      cols: 3
     items:
       - title: "Notion"
-        description: "Notes & tasks"
-        icon: "fab fa-notion"  # Custom brand icon
+        icon: "fab fa-notion"
         url: "https://notion.so"
-      - title: "Google Drive"
-        description: "Files & docs"
-        icon: "fab fa-google-drive"
-        url: "https://drive.google.com"
-      - title: "Calendar"
-        description: "Schedule"
-        icon: "fas fa-calendar-alt"
-        url: "https://calendar.google.com"
-
-  - name: "Entertainment"
-    icon: "fas fa-gamepad"
-    items:
-      - title: "Spotify"
-        description: "Music streaming"
-        icon: "fab fa-spotify"
-        url: "https://spotify.com"
-      - title: "Netflix"
-        description: "Movies & shows"
-        icon: "fab fa-netflix"
-        url: "https://netflix.com"
-
-# Optional footer for a professional touch
-footerText: "Holck-Schandorff | © 2025"
+      - title: "Slack"
+        icon: "fab fa-slack"
+        url: "https://slack.com"
+      - title: "Trello"
+        icon: "fab fa-trello"
+        url: "https://trello.com"
+footerText: "Designed by MasterST | Powered by Dashy"
