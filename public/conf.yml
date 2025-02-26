@@ -1,0 +1,66 @@
+# General page info for a polished appearance
+pageInfo:
+  title: "My Elegant Dashboard"
+  description: "A curated hub for all my favorite tools and services."
+  navLinks:
+    - title: "GitHub"
+      path: "https://github.com/yourusername"
+    - title: "Contact"
+      path: "mailto:you@yourdomain.com"
+
+# App settings for aesthetics
+appConfig:
+  theme: "nord"  # A clean, modern theme (options: nord, dracula, material, etc.)
+  layout: "auto"  # Responsive grid layout
+  iconSize: "medium"  # Balanced icon size
+  statusCheck: false  # Disable if static (Cloudflare Pages limitation)
+
+# Sections for a beautiful, organized dashboard
+sections:
+  - name: "Home Control"
+    icon: "fas fa-home"  # FontAwesome icon
+    displayData:
+      cols: 2  # Two-column layout for a tidy look
+    items:
+      - title: "Home Assistant"
+        description: "Smart home control"
+        icon: "fas fa-lightbulb"  # Sleek lightbulb icon
+        url: "https://ha.yourdomain.com"
+        target: "newtab"
+      - title: "Weather"
+        description: "Local forecast"
+        icon: "fas fa-cloud-sun"
+        url: "https://weather.com"
+
+  - name: "Productivity"
+    icon: "fas fa-briefcase"
+    displayData:
+      cols: 3  # Three columns for variety
+    items:
+      - title: "Notion"
+        description: "Notes & tasks"
+        icon: "fab fa-notion"  # Custom brand icon
+        url: "https://notion.so"
+      - title: "Google Drive"
+        description: "Files & docs"
+        icon: "fab fa-google-drive"
+        url: "https://drive.google.com"
+      - title: "Calendar"
+        description: "Schedule"
+        icon: "fas fa-calendar-alt"
+        url: "https://calendar.google.com"
+
+  - name: "Entertainment"
+    icon: "fas fa-gamepad"
+    items:
+      - title: "Spotify"
+        description: "Music streaming"
+        icon: "fab fa-spotify"
+        url: "https://spotify.com"
+      - title: "Netflix"
+        description: "Movies & shows"
+        icon: "fab fa-netflix"
+        url: "https://netflix.com"
+
+# Optional footer for a professional touch
+footerText: "Holck-Schandorff | © 2025"
