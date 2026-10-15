@@ -1,4 +1,4 @@
-name: Cleanup Job
+name: Runner Maintenance
 on:
   workflow_dispatch:
   push:
